@@ -36,6 +36,7 @@
 #include <MIDI_Outputs/CCPotentiometer.hpp>
 
 #include <MIDI_Outputs/NoteButton.hpp>
+#include <MIDI_Outputs/NoteMultiPurposeButton.hpp>
 #include <MIDI_Outputs/NoteButtonLatched.hpp>
 #include <MIDI_Outputs/NoteButtonLatching.hpp>
 #include <MIDI_Outputs/NoteButtonMatrix.hpp>
@@ -48,6 +49,8 @@
 #include <MIDI_Outputs/CCAbsoluteEncoder.hpp>
 #include <MIDI_Outputs/CCRotaryEncoder.hpp>
 #include <MIDI_Outputs/PBAbsoluteEncoder.hpp>
+
+#include <MIDI_Outputs/CCTouchWheel.hpp>
 
 #include <MIDI_Outputs/ProgramChanger.hpp>
 
@@ -75,6 +78,7 @@
 #include <MIDI_Outputs/ManyAddresses/NoteButtonMatrix.hpp>
 
 #include <MIDI_Outputs/Bankable/PBPotentiometer.hpp>
+#include <MIDI_Outputs/Bankable/PBMotorisedFader.hpp>
 #include <MIDI_Outputs/Bankable/PBSmartPotentiometer.hpp>
 #include <MIDI_Outputs/Bankable/PCButton.hpp>
 #include <MIDI_Outputs/ManyAddresses/PBPotentiometer.hpp>
